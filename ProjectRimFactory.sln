@@ -1,0 +1,362 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5CFDEC0A-3F78-410F-8549-6C2DECCF7E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectRimFactory", "Source\ProjectRimFactory\ProjectRimFactory.csproj", "{49284A95-A0E6-45F6-B7C8-20A4372C90E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{635F25D2-DBC4-4FAE-A054-4227BFE1CA4D}"
+	ProjectSection(SolutionItems) = preProject
+		About\About.xml = About\About.xml
+		About\Preview.png = About\Preview.png
+		About\PublishedFileId.txt = About\PublishedFileId.txt
+		About\PublishedFileId_STABLE.txt = About\PublishedFileId_STABLE.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Defs", "Defs", "{6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BodyDefs", "BodyDefs", "{A91B53C4-DAEE-4F02-9C97-0ECCF135C5B7}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\BodyDefs\Bodies_Drone.xml = Defs\BodyDefs\Bodies_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BodyPartDefs", "BodyPartDefs", "{E283D898-B92F-4BA3-AA24-EEB82515AEA6}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\BodyPartDefs\Bodies_Drone.xml = Defs\BodyPartDefs\Bodies_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignationCategoryDefs", "DesignationCategoryDefs", "{F1D44F1F-5F6A-4BEA-BD53-E6AB9E0D87B6}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\DesignationCategoryDefs\DesignationCategories.xml = Defs\DesignationCategoryDefs\DesignationCategories.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FleshTypeDefs", "FleshTypeDefs", "{D7BD5648-A750-4D63-83EE-11C3494D6D4B}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\FleshTypeDefs\FleshTypes_Drone.xml = Defs\FleshTypeDefs\FleshTypes_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobDefs", "JobDefs", "{C788F2A5-2BEA-4F96-BA83-D2F1DC07B2A1}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\JobDefs\JobDefs_Drones.xml = Defs\JobDefs\JobDefs_Drones.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PawnKindDefs_AssemblerPawns", "PawnKindDefs_AssemblerPawns", "{231534AA-5692-446A-A28A-D881CE3B6576}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\PawnKindDefs_AssemblerPawns\PawnKindDefs_AssemblerPawns.xml = Defs\PawnKindDefs_AssemblerPawns\PawnKindDefs_AssemblerPawns.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeDefs", "RecipeDefs", "{2F1FDB50-BD95-4F93-9328-9D9EFADCFD81}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\RecipeDefs\RecipeDefs_Paperclips.xml = Defs\RecipeDefs\RecipeDefs_Paperclips.xml
+		Defs\RecipeDefs\Recipes_Archo.xml = Defs\RecipeDefs\Recipes_Archo.xml
+		Defs\RecipeDefs\Recipes_ButcheryDrone.xml = Defs\RecipeDefs\Recipes_ButcheryDrone.xml
+		Defs\RecipeDefs\Recipes_Items.xml = Defs\RecipeDefs\Recipes_Items.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchProjectDefs", "ResearchProjectDefs", "{2FBFB05E-87E3-4475-AC6B-41BD2D0838D3}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ResearchProjectDefs\ResearchProjectDefs_AnimalStations.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_AnimalStations.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_Assemblers.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_Assemblers.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_Common.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_Common.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_Cultivation.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_Cultivation.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_Drones.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_Drones.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_Industrial.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_Industrial.xml
+		Defs\ResearchProjectDefs\ResearchProjectDefs_PostOrdo.xml = Defs\ResearchProjectDefs\ResearchProjectDefs_PostOrdo.xml
+		Defs\ResearchProjectDefs\ResearchProjects_PreOrdo.xml = Defs\ResearchProjectDefs\ResearchProjects_PreOrdo.xml
+		Defs\ResearchProjectDefs\ResearchProjects_PRFStorage.xml = Defs\ResearchProjectDefs\ResearchProjects_PRFStorage.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchTabDefs", "ResearchTabDefs", "{6791CBF3-9B90-4AE0-BDEF-A8548DEE24BB}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ResearchTabDefs\ResearchTabDefs.xml = Defs\ResearchTabDefs\ResearchTabDefs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TerrainDefs", "TerrainDefs", "{A1017419-87E3-4A2F-ACDB-3EC9EFCA2076}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\TerrainDefs\Terrain_Floors.xml = Defs\TerrainDefs\Terrain_Floors.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingCategoryDefs", "ThingCategoryDefs", "{91C01AFC-4983-4AD0-9A3E-FBAB0B3640AF}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThingCategoryDefs\ThingCategories_Buildings.xml = Defs\ThingCategoryDefs\ThingCategories_Buildings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs", "ThingDefs", "{A1D58D22-6070-4420-9CB2-75816B8FEA92}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThingDefs\Buildings_OtherStorage.xml = Defs\ThingDefs\Buildings_OtherStorage.xml
+		Defs\ThingDefs\Buildings_Storage.xml = Defs\ThingDefs\Buildings_Storage.xml
+		Defs\ThingDefs\ThingDefs_Buildings.xml = Defs\ThingDefs\ThingDefs_Buildings.xml
+		Defs\ThingDefs\ThingDefs_Items.xml = Defs\ThingDefs\ThingDefs_Items.xml
+		Defs\ThingDefs\Things_Stuff.xml = Defs\ThingDefs\Things_Stuff.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs_Buildings", "ThingDefs_Buildings", "{6CC81311-2E76-427B-8613-FA9ED2077A84}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThingDefs_Buildings\Buildings_AnimalStations.xml = Defs\ThingDefs_Buildings\Buildings_AnimalStations.xml
+		Defs\ThingDefs_Buildings\Buildings_Assemblers.xml = Defs\ThingDefs_Buildings\Buildings_Assemblers.xml
+		Defs\ThingDefs_Buildings\Buildings_Bases.xml = Defs\ThingDefs_Buildings\Buildings_Bases.xml
+		Defs\ThingDefs_Buildings\Buildings_Common.xml = Defs\ThingDefs_Buildings\Buildings_Common.xml
+		Defs\ThingDefs_Buildings\Buildings_Cultivators.xml = Defs\ThingDefs_Buildings\Buildings_Cultivators.xml
+		Defs\ThingDefs_Buildings\Buildings_DroneStation.xml = Defs\ThingDefs_Buildings\Buildings_DroneStation.xml
+		Defs\ThingDefs_Buildings\Buildings_Industry.xml = Defs\ThingDefs_Buildings\Buildings_Industry.xml
+		Defs\ThingDefs_Buildings\Buildings_SmartHopper.xml = Defs\ThingDefs_Buildings\Buildings_SmartHopper.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs_Items", "ThingDefs_Items", "{714A5F4D-EDC9-4DA1-9548-1C56FA4D1520}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThingDefs_Items\Things_Bases.xml = Defs\ThingDefs_Items\Things_Bases.xml
+		Defs\ThingDefs_Items\Things_Common.xml = Defs\ThingDefs_Items\Things_Common.xml
+		Defs\ThingDefs_Items\Things_Schematic.xml = Defs\ThingDefs_Items\Things_Schematic.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs_Races", "ThingDefs_Races", "{4C0AB94A-B61D-4D07-AE73-6263E76C12EF}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThingDefs_Races\Races_Base.xml = Defs\ThingDefs_Races\Races_Base.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThinkTreeDefs", "ThinkTreeDefs", "{7A39E092-96D2-4AAA-AA71-065D36B0D0B4}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\ThinkTreeDefs\ThinkTrees_Drone.xml = Defs\ThinkTreeDefs\ThinkTrees_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkGiverDefs", "WorkGiverDefs", "{F95B4408-3DC6-477F-A09F-22C00BC3C078}"
+	ProjectSection(SolutionItems) = preProject
+		Defs\WorkGiverDefs\WorkGivers.xml = Defs\WorkGiverDefs\WorkGivers.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Languages", "Languages", "{CA8E1245-634A-4EEF-83C5-1B4FB4CCAB14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChineseSimplified", "ChineseSimplified", "{3761C4C6-C21C-4092-9605-50A27621180B}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\LanguageInfo.xml = Languages\ChineseSimplified\LanguageInfo.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefInjected", "DefInjected", "{97257194-E499-4F08-B999-5CB62236EB07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignationCategoryDef", "DesignationCategoryDef", "{B018A5E3-D742-4E06-B412-71849661985A}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\DesignationCategoryDef\DesignationCategories.xml = Languages\ChineseSimplified\DefInjected\DesignationCategoryDef\DesignationCategories.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyBindingCategoryDef", "KeyBindingCategoryDef", "{4812228E-B190-4A1D-9B08-17D96267BFFC}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\KeyBindingCategoryDef\KeyBindingCategories_Add_Architect.xml = Languages\ChineseSimplified\DefInjected\KeyBindingCategoryDef\KeyBindingCategories_Add_Architect.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeDef", "RecipeDef", "{C8AD51B4-0286-4EAA-B146-65771C2A5DDD}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_DataDisk.xml = Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_DataDisk.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchProjectDef", "ResearchProjectDef", "{2964CD68-5AEA-4BD6-8EFE-1CC3A731B9B3}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_AnimalStations.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_AnimalStations.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Assemblers.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Assemblers.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Common.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Common.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Cultivation.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Cultivation.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Industrial.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Industrial.xml
+		Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Storage.xml = Languages\ChineseSimplified\DefInjected\ResearchProjectDef\ResearchProjectDefs_Storage.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchTabDef", "ResearchTabDef", "{382D3F64-0534-49F5-8DBA-C438E3F36132}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchProjectDefs.xml = Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchProjectDefs.xml
+		Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchProjectDefs_Cultivation.xml = Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchProjectDefs_Cultivation.xml
+		Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchTabDefs.xml = Languages\ChineseSimplified\DefInjected\ResearchTabDef\ResearchTabDefs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDef", "ThingDef", "{5B541BDE-FC52-4129-94CE-A3C8CFD15D70}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\DefInjected\ThingDef\Building.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Building.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_AnimalStations.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_AnimalStations.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Assemblers.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Assemblers.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Cultivators.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Cultivators.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Industry.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Industry.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Main.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Main.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_OtherStorage.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_OtherStorage.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_SmartHopper.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_SmartHopper.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Storage.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Buildings_Storage.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\ThingDefs_Buildings.xml = Languages\ChineseSimplified\DefInjected\ThingDef\ThingDefs_Buildings.xml
+		Languages\ChineseSimplified\DefInjected\ThingDef\Things_Schematic.xml = Languages\ChineseSimplified\DefInjected\ThingDef\Things_Schematic.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keyed", "Keyed", "{FD848A86-37FF-4C68-999E-B3771AFBFDA2}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\ChineseSimplified\Keyed\AllKeyed_CT.xml = Languages\ChineseSimplified\Keyed\AllKeyed_CT.xml
+		Languages\ChineseSimplified\Keyed\AllKeyed_Other.xml = Languages\ChineseSimplified\Keyed\AllKeyed_Other.xml
+		Languages\ChineseSimplified\Keyed\AllKeyed_SAL.xml = Languages\ChineseSimplified\Keyed\AllKeyed_SAL.xml
+		Languages\ChineseSimplified\Keyed\AllKeyed_SAL3.xml = Languages\ChineseSimplified\Keyed\AllKeyed_SAL3.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "English", "English", "{E036E919-AAAE-4D33-9168-893E5873A88C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keyed", "Keyed", "{8FFC5B57-0738-4195-845A-7835893C2297}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\English\Keyed\AllKeyed_CT.xml = Languages\English\Keyed\AllKeyed_CT.xml
+		Languages\English\Keyed\AllKeyed_Help.xml = Languages\English\Keyed\AllKeyed_Help.xml
+		Languages\English\Keyed\AllKeyed_Other.xml = Languages\English\Keyed\AllKeyed_Other.xml
+		Languages\English\Keyed\AllKeyed_SAL3.xml = Languages\English\Keyed\AllKeyed_SAL3.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Russian", "Russian", "{EB927E8F-F5D3-4259-85E2-C75BCF924F3D}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\LanguageInfo.xml = Languages\Russian\LanguageInfo.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefInjected", "DefInjected", "{66BCCFF1-435B-445D-9F88-D93639A6BE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BodyDefs", "BodyDefs", "{95F64447-0C98-47F2-8F13-8422E4459B4F}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\BodyDefs\Bodies_Drone.xml = Languages\Russian\DefInjected\BodyDefs\Bodies_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BodyPartDefs", "BodyPartDefs", "{47647488-3528-4839-AE33-9ABA3998FE7A}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\BodyPartDefs\Bodies_Drone.xml = Languages\Russian\DefInjected\BodyPartDefs\Bodies_Drone.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignationCategoryDefs", "DesignationCategoryDefs", "{0D997AC7-FA0A-4594-921E-7C1B4851C378}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\DesignationCategoryDefs\DesignationCategories.xml = Languages\Russian\DefInjected\DesignationCategoryDefs\DesignationCategories.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobDefs", "JobDefs", "{CF2B2DEE-D104-4B79-A2AA-200E0EF0F1D9}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\JobDefs\JobDefs_Drones.xml = Languages\Russian\DefInjected\JobDefs\JobDefs_Drones.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PawnKindDefs", "PawnKindDefs", "{29B96C4A-7E7E-4939-BFBE-9EFC163C2524}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\PawnKindDefs\PawnKindDefs_AssemblerPawns.xml = Languages\Russian\DefInjected\PawnKindDefs\PawnKindDefs_AssemblerPawns.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeDefs", "RecipeDefs", "{69029DCE-7C67-4159-B1BE-00B65E51CA50}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\RecipeDefs\Recipes_Archo.xml = Languages\Russian\DefInjected\RecipeDefs\Recipes_Archo.xml
+		Languages\Russian\DefInjected\RecipeDefs\Recipes_ButcheryDrone.xml = Languages\Russian\DefInjected\RecipeDefs\Recipes_ButcheryDrone.xml
+		Languages\Russian\DefInjected\RecipeDefs\Recipes_Items.xml = Languages\Russian\DefInjected\RecipeDefs\Recipes_Items.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchProjectDefs", "ResearchProjectDefs", "{0E6A8E09-AFB9-465F-A28D-BDFECB7BE549}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_AnimalStations.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_AnimalStations.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Assemblers.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Assemblers.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Common.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Common.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Cultivation.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Cultivation.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Drones.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Drones.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Industrial.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Industrial.xml
+		Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Storage.xml = Languages\Russian\DefInjected\ResearchProjectDefs\ResearchProjectDefs_Storage.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchTabDefs", "ResearchTabDefs", "{99D298FE-449D-4BB1-8A38-7EC949B2A7A3}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\ResearchTabDefs\ResearchTabDefs.xml = Languages\Russian\DefInjected\ResearchTabDefs\ResearchTabDefs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TerrainDefs", "TerrainDefs", "{F4EC2023-94BB-47BF-9344-23B05D55892F}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\TerrainDefs\Terrain_Floors.xml = Languages\Russian\DefInjected\TerrainDefs\Terrain_Floors.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingCategoryDefs", "ThingCategoryDefs", "{5A7C7121-4175-40EA-8B62-896AD622E9DF}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\ThingCategoryDefs\ThingCategories_Buildings.xml = Languages\Russian\DefInjected\ThingCategoryDefs\ThingCategories_Buildings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs", "ThingDefs", "{70607403-B805-40F0-B88B-A94B015134D3}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\DefInjected\ThingDefs\Buildings_AnimalStations.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_AnimalStations.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_Assemblers.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_Assemblers.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_Common.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_Common.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_Cultivators.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_Cultivators.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_DroneStation.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_DroneStation.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_Industry.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_Industry.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_OtherStorage.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_OtherStorage.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_SmartHopper.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_SmartHopper.xml
+		Languages\Russian\DefInjected\ThingDefs\Buildings_Storage.xml = Languages\Russian\DefInjected\ThingDefs\Buildings_Storage.xml
+		Languages\Russian\DefInjected\ThingDefs\Races_Base.xml = Languages\Russian\DefInjected\ThingDefs\Races_Base.xml
+		Languages\Russian\DefInjected\ThingDefs\Things_Common.xml = Languages\Russian\DefInjected\ThingDefs\Things_Common.xml
+		Languages\Russian\DefInjected\ThingDefs\Things_Schematic.xml = Languages\Russian\DefInjected\ThingDefs\Things_Schematic.xml
+		Languages\Russian\DefInjected\ThingDefs\Things_Stuff.xml = Languages\Russian\DefInjected\ThingDefs\Things_Stuff.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keyed", "Keyed", "{EAEB229D-798E-45BA-87E5-99D21DBC8267}"
+	ProjectSection(SolutionItems) = preProject
+		Languages\Russian\Keyed\AllKeyed_CT.xml = Languages\Russian\Keyed\AllKeyed_CT.xml
+		Languages\Russian\Keyed\AllKeyed_Help.xml = Languages\Russian\Keyed\AllKeyed_Help.xml
+		Languages\Russian\Keyed\AllKeyed_Other.xml = Languages\Russian\Keyed\AllKeyed_Other.xml
+		Languages\Russian\Keyed\AllKeyed_SAL3.xml = Languages\Russian\Keyed\AllKeyed_SAL3.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{C3392B88-4FEA-459E-B4CE-6AB69F042254}"
+	ProjectSection(SolutionItems) = preProject
+		Patches\Patch_AIResearchBench.xml = Patches\Patch_AIResearchBench.xml
+		Patches\Patches_RTFuseInsertionHook.xml = Patches\Patches_RTFuseInsertionHook.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49284A95-A0E6-45F6-B7C8-20A4372C90E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49284A95-A0E6-45F6-B7C8-20A4372C90E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49284A95-A0E6-45F6-B7C8-20A4372C90E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49284A95-A0E6-45F6-B7C8-20A4372C90E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49284A95-A0E6-45F6-B7C8-20A4372C90E5} = {5CFDEC0A-3F78-410F-8549-6C2DECCF7E7C}
+		{A91B53C4-DAEE-4F02-9C97-0ECCF135C5B7} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{E283D898-B92F-4BA3-AA24-EEB82515AEA6} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{F1D44F1F-5F6A-4BEA-BD53-E6AB9E0D87B6} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{D7BD5648-A750-4D63-83EE-11C3494D6D4B} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{C788F2A5-2BEA-4F96-BA83-D2F1DC07B2A1} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{231534AA-5692-446A-A28A-D881CE3B6576} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{2F1FDB50-BD95-4F93-9328-9D9EFADCFD81} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{2FBFB05E-87E3-4475-AC6B-41BD2D0838D3} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{6791CBF3-9B90-4AE0-BDEF-A8548DEE24BB} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{A1017419-87E3-4A2F-ACDB-3EC9EFCA2076} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{91C01AFC-4983-4AD0-9A3E-FBAB0B3640AF} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{A1D58D22-6070-4420-9CB2-75816B8FEA92} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{6CC81311-2E76-427B-8613-FA9ED2077A84} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{714A5F4D-EDC9-4DA1-9548-1C56FA4D1520} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{4C0AB94A-B61D-4D07-AE73-6263E76C12EF} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{7A39E092-96D2-4AAA-AA71-065D36B0D0B4} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{F95B4408-3DC6-477F-A09F-22C00BC3C078} = {6E8F9C67-D6A2-4FAE-91A5-5551F6078EC3}
+		{3761C4C6-C21C-4092-9605-50A27621180B} = {CA8E1245-634A-4EEF-83C5-1B4FB4CCAB14}
+		{97257194-E499-4F08-B999-5CB62236EB07} = {3761C4C6-C21C-4092-9605-50A27621180B}
+		{B018A5E3-D742-4E06-B412-71849661985A} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{4812228E-B190-4A1D-9B08-17D96267BFFC} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{C8AD51B4-0286-4EAA-B146-65771C2A5DDD} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{2964CD68-5AEA-4BD6-8EFE-1CC3A731B9B3} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{382D3F64-0534-49F5-8DBA-C438E3F36132} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{5B541BDE-FC52-4129-94CE-A3C8CFD15D70} = {97257194-E499-4F08-B999-5CB62236EB07}
+		{FD848A86-37FF-4C68-999E-B3771AFBFDA2} = {3761C4C6-C21C-4092-9605-50A27621180B}
+		{E036E919-AAAE-4D33-9168-893E5873A88C} = {CA8E1245-634A-4EEF-83C5-1B4FB4CCAB14}
+		{8FFC5B57-0738-4195-845A-7835893C2297} = {E036E919-AAAE-4D33-9168-893E5873A88C}
+		{EB927E8F-F5D3-4259-85E2-C75BCF924F3D} = {CA8E1245-634A-4EEF-83C5-1B4FB4CCAB14}
+		{66BCCFF1-435B-445D-9F88-D93639A6BE86} = {EB927E8F-F5D3-4259-85E2-C75BCF924F3D}
+		{95F64447-0C98-47F2-8F13-8422E4459B4F} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{47647488-3528-4839-AE33-9ABA3998FE7A} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{0D997AC7-FA0A-4594-921E-7C1B4851C378} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{CF2B2DEE-D104-4B79-A2AA-200E0EF0F1D9} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{29B96C4A-7E7E-4939-BFBE-9EFC163C2524} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{69029DCE-7C67-4159-B1BE-00B65E51CA50} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{0E6A8E09-AFB9-465F-A28D-BDFECB7BE549} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{99D298FE-449D-4BB1-8A38-7EC949B2A7A3} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{F4EC2023-94BB-47BF-9344-23B05D55892F} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{5A7C7121-4175-40EA-8B62-896AD622E9DF} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{70607403-B805-40F0-B88B-A94B015134D3} = {66BCCFF1-435B-445D-9F88-D93639A6BE86}
+		{EAEB229D-798E-45BA-87E5-99D21DBC8267} = {EB927E8F-F5D3-4259-85E2-C75BCF924F3D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89349CA4-1B1C-4821-B2F4-F9B2E9507C1B}
+	EndGlobalSection
+EndGlobal
